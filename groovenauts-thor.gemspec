@@ -10,7 +10,8 @@ Gem::Specification.new do |spec|
   spec.description = "Thor is a toolkit for building powerful command-line interfaces."
   # spec.email = "ruby-thor@googlegroups.com"
   spec.email = "t-akima@groovenauts.jp"
-  spec.executables = %w[thor]
+  # spec.executables = %w[thor]
+  spec.executables = %w[groovenauts-thor]
   spec.files = %w[.document thor.gemspec] + Dir['*.md', 'bin/*', 'lib/**/*.rb']
   # spec.homepage = "http://whatisthor.com/"
   spec.homepage = "https://github.com/groovenauts/thor"
